@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer página web</title>
+</head>
+<body>
+    <h1>Nombres</h1>
+    <h2>Nombre y Apellido del Alumno/a: </h2> Juan José
+    <h2>Nombre y Apellido del Docente: </h2> Juanma Brignole
+ </body>
+</html>
