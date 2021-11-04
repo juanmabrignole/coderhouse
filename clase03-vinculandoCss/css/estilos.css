@@ -1,0 +1,110 @@
+
+/* RESET Selector Universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Tipografia Local*/
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('../assets/fonts/Poppins-SemiBold.ttf');
+}
+
+/*@font-face {
+    font-family: 'montserrat-regular';
+    src: url('../assets/fonts/Montserrat-Regular.ttf');
+}*/
+
+/*Fin Tipografia Local*/
+
+/*body{
+    background-color: aqua;
+}*/
+
+/*section article{
+    background-color: #cccccc;
+    width: 500px;
+    height: 500px;
+
+}*/
+
+/*Background-image*/
+body{
+    background-image: url("../assets/img/pawel-czerwinski-APVgVX_yDDc-unsplash.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+/*Fin Background-image*/
+
+section{
+    color: rgba(10, 100, 200, 0.8);
+    font-size: 20px;
+    padding: 50px 30px 40px 60px;
+    margin-left: 40px;
+}
+
+section article {
+    /*background-color*/
+    background-color: #b66a6a;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+section article p{
+    line-height: 4;
+    font-family: 'poppins-semibold';
+}
+
+.bordes-redondeados{
+    border-radius: 15px;
+}
+
+/*section img{
+    margin-top: 20px;
+    width: 50%;
+}*/
+
+/*Atributo Class*/
+.imgchica{
+    margin-top: 25px;
+    width: 25%;
+}
+/*Fin Atributo Class*/
+
+/*Identificador Unico ID*/
+#manifiesto{
+    font-family: 'Fruktur', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+/*Fin Identificador Unico ID*/
+
+/*text-align*/
+header h3{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'montserrat-regular';
+}
+/*Fin text-align*/
+
+
+/*Estilos de Listas*/
+ul{
+    text-align: center;
+    margin-left: 30px;
+    list-style-type: none;
+}
+/*Fin Estilos de Listas*/
+
+div ul li{
+    font-family: 'Fruktur', cursive;
+}
+
+
+
+
+

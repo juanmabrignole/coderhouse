@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Vinculacion de Css de Manera Externa-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="assets/img/103710_source_code_icon.svg" type="image/x-icon">
+    <!--Tipografia Web-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <title>Vinculando CSS</title>
+    <!--Vinculacion de Css de Manera Interna-->
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Trabajando con CSS3</h3>
+    </header>
+    <div>
+        <ul>
+            <li>Nosotros</li>
+            <li>Tienda</li>
+            <li>Blog</li>
+            <li>Contacto</li>
+        </ul>
+    </div>
+    <section id="principal">
+        <article><!--ParchesCSS-->
+            <h2 style="font-size: 50px;">Nuestra Empresa</h2>
+
+            <p id="manifiesto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quia cumque suscipit, officia expedita natus ipsum impedit laboriosam pariatur atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam perspiciatis esse impedit a, odit asperiores delectus. Corrupti, debitis suscipit laboriosam, aliquam obcaecati exercitationem culpa tempore qui provident ipsam accusamus repudiandae. Minus culpa quam tempore veritatis! Quibusdam atque tenetur, sint ratione laudantium repellendus? Consequatur iusto architecto fuga maiores necessitatibus porro quisquam?</p>
+        </article>
+
+        <img class="bordes-redondeados imgchica" src="assets/img/ana-grave-gHcWaeldgtQ-unsplash.jpg" alt="bandaenvivo">
+
+        <img class="imgchica bordes-redondeados" src="assets/img/francisco-moreno-GrIty4BNJEE-unsplash.jpg" alt="bandaenvivo02">
+    </section>
+
+    <!--Herencia/ las reglas que defini para section, al menos que le indique lo contrario, lo van a heredar sus hijos: article, h2 y p-->
+    <section>
+        <article>
+            <h2>Herencia entre padres e hijos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum, alias ratione numquam reprehenderit accusamus quibusdam provident distinctio pariatur aliquid! Architecto in neque similique eius mollitia asperiores officiis suscipit culpa.</p>
+        </article>
+    </section>
+    
+</body>
+</html>
