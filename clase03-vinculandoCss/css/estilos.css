@@ -1,0 +1,44 @@
+* {
+    Margin:0;
+    padding:0;
+    font-size: 16px;
+ }
+
+ @font-face {
+     font-family: 'Poppins';
+     src: url('../assets/fonts/Poppins-SemiBold.ttf');
+ }
+
+ body{
+     background-image: url('../assets/img/2541668_coding_html_markup_tag_icon.png');
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ 
+/*Atributo CLASS*/
+.bordesRedondeados{
+    border-radius: 30px;
+}
+
+.imgchica{
+    width: 25%;
+}
+/*Fin Atributo CLASS*/
+
+/*Atributo ID*/
+/*#nuestraBio{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    background-color: green;
+}*/
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: #cccccc;
+ }
+ 
+ ul li{
+     list-style-type: none;
+ }
