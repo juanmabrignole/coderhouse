@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cccccc;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*Metodologia BEM (Bloque, Elemento y Modificador)*/
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 20px auto;
+}
+.tarjeta{
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.tarjeta__miniatura{
+    width: 650px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.tarjeta__img{
+    width: 100%;
+}
+
+.tarjeta__encabezados{
+    font-family: 'Poppins' sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.tarjeta__enlace{
+    color: #000;
+}
+
+.tarjeta__extracto{
+    line-height: 28px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.boton{
+    border: none;
+    min-width: 18px;
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+    border-radius: 100px;
+    text-decoration: none;
+    align-items: center;
+    background: purple;
+    
+}
+
+.boton__texto{
+    font-weight: normal;
+}
+
+.boton:hover{
+    background: rebeccapurple;
+    text-decoration: none;
+}
+
+/*Modificador*/
+.botton--absolute{
+    position: absolute;
+    right: 20px;
+    bottom: -40px;
+}
+
+.botton--verde:hover{
+    background: green;
+}
+
+/*Overflow*/
+.overflow{
+    width: 500px;
+    height: 250px;
+    background: #fff;
+    padding: 50px;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+.overflow02{
+    border: 2px outset black;
+    padding: 5px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*Problema*/
+    width: 110px;
+    height: 110px;
+    /*Solucion*/
+    overflow: hidden;
+}
+
+/*Implementando Display*/
+a{
+    display: block;
+    margin-bottom: 20px;
+}
+
