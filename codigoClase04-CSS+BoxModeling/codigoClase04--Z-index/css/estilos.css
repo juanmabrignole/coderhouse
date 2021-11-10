@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+section{
+    border: 2px dashed green;
+    padding: 2em;
+    margin: 5em auto;
+    width: 400px;
+    height: 440px;
+}
+
+div{
+    border-radius: 5px;
+    color: #444;
+    font-size: 20px;
+    line-height: 100px;
+    padding: .5em;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.caja1{
+    background: green;
+    top: 50px;
+    left: 50px;
+    z-index: 30;
+}
+
+.caja2{
+    background: blue;
+    top: 10px;
+    left: 100px;
+    z-index: 40;
+}
+
+.caja3{
+    background:red;
+    top: -50;
+    left: 150px;
+    z-index: 20;
+}
