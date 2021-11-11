@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-flow: column wrap;*/
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 500px;
+    border: 2px solid brown;
+    background-color: cadetblue;
+}
+
+.flex-container__img{
+    width: 160px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
