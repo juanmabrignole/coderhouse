@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /*align-items: flex-end;*/
+    align-content: flex-start;
+    background: cornflowerblue;
+    height: 1800px;
+
+}
+
+.flex-container__img{
+    width: 180px;
+}
+
+
