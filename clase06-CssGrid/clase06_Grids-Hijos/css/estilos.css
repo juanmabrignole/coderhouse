@@ -1,0 +1,21 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 200px; /*Ancho width*/
+    grid-template-rows: 40px 100px; /*Alto Height*/
+}   
+
+.a{
+    background-color: blue;
+}
+
+.b{
+    background-color: red;
+}
+
+.c{
+    background-color: green;
+}
+
+.d{
+    background-color: yellow;
+}

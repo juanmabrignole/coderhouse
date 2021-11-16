@@ -1,0 +1,30 @@
+.grid{
+    display: grid;
+    height: 100vh;
+    width: auto;
+    /*width: 95%;*/
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-template-rows: 100px 100px 100px;
+    grid-row-gap: 10px;
+    /*justify-items: end;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;*/
+    background-color: blue;
+    border: 4px dotted white;
+
+}
+
+.grid div{
+    border: 1px solid;
+    font-size: 21px;
+    padding: 5px;
+    background-color: yellow;
+
+}
+
+.hijo{
+    justify-self: start;
+    align-self: stretch;
+}
