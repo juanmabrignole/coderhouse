@@ -1,0 +1,81 @@
+main{
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    gap: 10px;
+    /*Posicionamos las areas*/
+    grid-template-areas: 
+    "header"
+    "aside"
+    "contenido"
+    "nav"
+    "footer"
+    ;
+}
+
+main > *{
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Nombramos las areas*/
+header{
+    grid-area: header;
+    background: blueviolet;
+}
+
+aside{
+    grid-area: aside;
+    background: chartreuse;
+}
+
+section{
+    grid-area: contenido;
+    background: cornflowerblue;
+}
+
+nav{
+    grid-area: nav;
+    background: crimson;
+}
+
+footer{
+    grid-area: footer;
+    background: darkgoldenrod;
+}
+
+/*Responsive*/
+
+/*Tablets*/
+@media screen and (min-width:768px) {
+    main{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 2fr 1fr;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "aside contenido"
+        "footer footer"
+        ;
+    }   
+}
+
+/*Desktop*/
+@media screen and (min-width:1200px) {
+    main{
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 2fr 5fr 1fr 1fr;
+        grid-template-areas: 
+        "header header header"
+        "nav contenido aside"
+        "nav contenido aside"
+        "footer footer footer"
+        ;
+    }    
+}
+
+
+
