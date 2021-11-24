@@ -1,0 +1,15 @@
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background: #aaa;
+    /*TRANSITIONS*/
+    transition-property: width, height, background-color;
+    transition-duration: 10s;
+    transition-timing-function: ease-out;
+}
+
+.cuadrado:hover{
+    width: 600px;
+    height: 600px;
+    background-color: red;
+}  

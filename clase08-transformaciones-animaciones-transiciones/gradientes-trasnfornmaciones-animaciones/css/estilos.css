@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section{
+    margin-top: 30px;
+    height: 600px;
+    padding: 25px 0;
+    border: 2px solid white;
+}
+
+.button-gradient{
+    padding: 20px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-transform: lowercase;
+    /*Gradientes*/
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+    /*background-image: radial-gradient(red, yellow);*/
+    /*Transformaciones*/
+    /*transform: skew(30deg);*/
+     /*Animaciones*/
+    animation-name: mianimacion;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+
+}
+
+
+@keyframes mianimacion {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background: red;
+        left: 300px;
+        top: 0px;
+    }
+    50%{
+       background: green;
+       left: 300px; 
+       top: 300px;
+    }
+    75%{
+        background: yellow;
+        left: 0px;
+        top: 300px;
+    }
+    100%{
+        background: blue;
+        left: 0px;
+        top: 0px;
+    }   
+}
